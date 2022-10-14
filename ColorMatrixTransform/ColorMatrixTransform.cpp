@@ -90,7 +90,7 @@ PVideoFrame __stdcall ColorMatrixTransform::GetFrame(int n, IScriptEnvironment* 
             dstpLocal0[x] = srcpLocal0[x] * transformMatrixLocal0 +srcpLocal1[x] * transformMatrixLocal1 + srcpLocal2[x] * transformMatrixLocal2 + transformMatrixLocal3;
             dstpLocal1[x] = srcpLocal0[x] * transformMatrixLocal4 + srcpLocal1[x] * transformMatrixLocal5 + srcpLocal2[x] * transformMatrixLocal6 + transformMatrixLocal7;
             dstpLocal2[x] = srcpLocal0[x] * transformMatrixLocal8 + srcpLocal1[x] * transformMatrixLocal9 + srcpLocal2[x] * transformMatrixLocal10 + transformMatrixLocal11;
-        }
+        } 
     }
     
     return dst;
